@@ -5,7 +5,6 @@ import random
 
 st.set_page_config(page_title="RCB Reality Check", layout="wide")
 
-# ---------------- 🔴⚫ ENHANCED THEME ----------------
 st.markdown("""
 <style>
 body {
@@ -41,14 +40,14 @@ h1, h2, h3 {
 </style>
 """, unsafe_allow_html=True)
 
-# ---------------- HERO ----------------
+
 st.title("🔴 RCB Reality Check")
 st.subheader("Chaos • Collapses • Records")
 
 st.metric("🔥 Lowest Total Ever", "49 ALL OUT", "vs RR (2009)")
 st.divider()
 
-# ---------------- BIG DATA ----------------
+
 records = [
 "49 all out vs RR (2009)",
 "70 all out vs KKR (2008)",
@@ -64,7 +63,7 @@ records = [
 
 df = pd.DataFrame(records, columns=["Worst Records"])
 
-# ---------------- DASHBOARD ----------------
+
 st.header("💀 Worst Records")
 
 cols = st.columns(3)
@@ -74,7 +73,7 @@ for i, rec in enumerate(records):
 
 st.divider()
 
-# ---------------- CHART ----------------
+
 st.header("📊 Collapse Frequency")
 
 chart_df = pd.DataFrame({
@@ -87,7 +86,7 @@ st.plotly_chart(fig, use_container_width=True)
 
 st.divider()
 
-# ---------------- MEMES ----------------
+
 st.header("😂 Meme Zone")
 
 memes = [
@@ -105,7 +104,7 @@ for i, meme in enumerate(memes):
 
 st.divider()
 
-# ---------------- 🎲 FOOTER GENERATOR ----------------
+
 st.markdown("<div class='footer-box'>", unsafe_allow_html=True)
 
 st.subheader("🎲 Reality Generator")
