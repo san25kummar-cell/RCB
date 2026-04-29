@@ -44,7 +44,7 @@ h1, h2, h3 {
 st.title("🔴 RCB Reality Check")
 st.subheader("Chaos • Collapses • Records")
 
-st.metric("🔥 Lowest Total Ever", "49 ALL OUT", "vs RR (2009)")
+st.metric("🔥 Lowest Total Ever", "49 ALL OUT", "vs KKR (2017)")
 st.divider()
 
 
